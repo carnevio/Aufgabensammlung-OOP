@@ -93,6 +93,7 @@
             this.Reisedauerberechnen.TabIndex = 5;
             this.Reisedauerberechnen.Text = "Reisedauer berechnen";
             this.Reisedauerberechnen.UseVisualStyleBackColor = true;
+            this.Reisedauerberechnen.Click += new System.EventHandler(this.Reisedauerberechnen_Click);
             // 
             // Text2
             // 

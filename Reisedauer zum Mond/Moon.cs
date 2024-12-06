@@ -17,6 +17,18 @@ namespace Reisedauer_zum_Mond
             InitializeComponent();
         }
 
-        
+        private void Reisedauerberechnen_Click(object sender, EventArgs e)
+        {
+            if (inTagen.Checked)
+            {
+                Mondreise reise = new Mondreise(Convert.ToDouble(Geschwindigkeit.Text));
+                Reisedauer.Text = reise.ReisedauerInTagen().ToString();
+            }
+            else
+            {
+                Mondreise reise = new Mondreise(Convert.ToDouble(Geschwindigkeit.Text));
+                Reisedauer.Text = reise.ReisedauerInStunden().ToString();
+            }
+        }
     }
    }
