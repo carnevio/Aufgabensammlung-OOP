@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rechteck", "Rechteck\Rechte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Würfel", "Würfel\Würfel.csproj", "{AB0CDED3-5986-4B56-886D-7EEE957850FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reisedauer zum Mond", "Reisedauer zum Mond\Reisedauer zum Mond.csproj", "{C99945E4-124C-4ED3-AA7D-9911DCD3498C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB0CDED3-5986-4B56-886D-7EEE957850FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0CDED3-5986-4B56-886D-7EEE957850FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0CDED3-5986-4B56-886D-7EEE957850FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99945E4-124C-4ED3-AA7D-9911DCD3498C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99945E4-124C-4ED3-AA7D-9911DCD3498C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99945E4-124C-4ED3-AA7D-9911DCD3498C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99945E4-124C-4ED3-AA7D-9911DCD3498C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

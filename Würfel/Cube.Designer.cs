@@ -32,6 +32,8 @@
             this.Zahl = new System.Windows.Forms.Label();
             this.LezterWurf = new System.Windows.Forms.Label();
             this.LetzerWurfZahl = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.alleZahlen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Würfeln
@@ -71,11 +73,30 @@
             this.LetzerWurfZahl.TabIndex = 3;
             this.LetzerWurfZahl.Text = "?";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(492, 330);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 48);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Alle Zahlen";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // alleZahlen
+            // 
+            this.alleZahlen.Location = new System.Drawing.Point(492, 412);
+            this.alleZahlen.Name = "alleZahlen";
+            this.alleZahlen.Size = new System.Drawing.Size(242, 26);
+            this.alleZahlen.TabIndex = 5;
+            // 
             // Cube
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.alleZahlen);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.LetzerWurfZahl);
             this.Controls.Add(this.LezterWurf);
             this.Controls.Add(this.Zahl);
@@ -93,6 +114,8 @@
         private System.Windows.Forms.Label Zahl;
         private System.Windows.Forms.Label LezterWurf;
         private System.Windows.Forms.Label LetzerWurfZahl;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox alleZahlen;
     }
 }
 

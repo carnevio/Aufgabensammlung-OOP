@@ -23,6 +23,12 @@ namespace Würfel
         {
             Zahl.Text = Convert.ToString(w.Werfen());
             LetzerWurfZahl.Text = Convert.ToString(w.LetzterWurf);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            alleZahlen.Text = string.Join(", ", w.AlleWuerfe);
         }
     }
 }
