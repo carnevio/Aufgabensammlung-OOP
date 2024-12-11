@@ -31,10 +31,7 @@ namespace Würfel
             return aktuellerWurf;
         }
 
-        public Wuerfel()
-        {
-            allewuerfe = new List<int>();
-        }
+        
 
     }
 }
